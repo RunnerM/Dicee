@@ -14,6 +14,7 @@
         android:gravity="center_horizontal">
 
         <ImageView
+            android:contentDescription="@string/logo"
             android:id="@+id/image_logo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -32,6 +33,7 @@
         android:orientation="horizontal">
 
         <ImageView
+            android:contentDescription="@string/diceL"
             android:id="@+id/image_leftDice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -39,6 +41,7 @@
             app:srcCompat="@drawable/dice1" />
 
         <ImageView
+            android:contentDescription="@string/diceR"
             android:id="@+id/image_rightDice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -55,11 +58,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
+            android:paddingHorizontal="30dp"
+            android:paddingVertical="10dp"
             android:background="@color/rollButtonColor"
             android:text="@string/ButtonText"
             android:textColor="@color/rollButtonText"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textSize="50dp"
+            android:textStyle="italic"
+            android:textAllCaps="true"/>
     </RelativeLayout>
 
 </LinearLayout>
